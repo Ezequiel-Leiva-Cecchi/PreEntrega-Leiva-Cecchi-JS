@@ -27,11 +27,11 @@ for (let i = 1; i <= cantidadAlumnos; i++) {
         alert("Ingreso un valor no valido");
         nota3 = parseInt(prompt("Reingrese la tercera nota: "));
     }
-    function CalcularPromedio(nota1, nota2, nota3) {
+    function calcularPromedio(nota1, nota2, nota3) {
         let resultado = (nota1 + nota2 + nota3) / 3;
         return resultado;
     }
-    let promedio = CalcularPromedio(nota1, nota2, nota3);
+    let promedio = calcularPromedio(nota1, nota2, nota3);
     console.log("El promedio del alumno " + nombre + " " + apellido + " es de: " + promedio);
 }
 
